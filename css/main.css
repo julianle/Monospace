@@ -4,3 +4,45 @@
   font-family: 'Graphik Regular';
   src: url('../fonts/Graphik-Regular.otf')  format('opentype');
 }
+
+body {
+  font-family: 'Graphik Regular';
+  -webkit-font-smoothing: antialiased;
+  font-size: 3em;
+  line-height: 1.3;
+  color: #ffffff;
+  background-color: #000000;
+  margin: 0;
+
+}
+
+.content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.color-1 {
+  color: rgba(255, 255, 255, 1);
+}
+
+.color-2 {
+  color: rgba(255, 255, 255, .5);
+}
+
+.color-3 {
+  color: rgba(255, 255, 255, .3);
+}
+
+.color-4 {
+  color: rgba(255, 255, 255, .2);
+}
+
+.color-5 {
+  color: rgba(255, 255, 255, .1);
+}
